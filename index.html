@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SamvaadAI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="chatbot.css">
+    <!-- Google Fonts Link For Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <script src="chatbot.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">SanvaadAI</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="pages/educationhub.html">Education Hub</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="pages/login-btn.html">
+            <button class="login-btn">Login</button>
+        </a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="title">Welcome to SanvaadAI</h1>
+            <p class="subtitle">Your personalized companion for chronic disease management</p>
+            <button class="btn"
+                onclick="document.getElementById('features').scrollIntoView({ behavior: 'smooth' });">Get
+                Started</button>
+        </div>
+        <img src="pic1.jpg" alt="SamvaadAI" class="hero-image">
+    </section>
+
+    <!-- Features Section -->
+    <div id="features" class="container">
+        <h2 class="section-title">Features</h2>
+        <div class="features">
+            <div class="card">
+                <div class="icon">💙</div>
+                <h3>Weekly Mood Graph</h3>
+                <p>Track your mood.</p>
+            </div>
+            <div class="card">
+                <div class="icon">💊</div>
+                <h3>Group Therapy</h3>
+                <p>Provide group therapy.</p>
+            </div>
+            <div class="card">
+                <div class="icon">👨‍⚕️</div>
+                <h3>Emergency Assistance</h3>
+                <p>Consult with healthcare professionals online.</p>
+            </div>
+            <div class="card">
+                <div class="icon">📚</div>
+                <h3>Personalized suggestions</h3>
+                <p>Access health resources and self-management tools.</p>
+            </div>
+            <div class="card">
+                <div class="icon">📅</div>
+                <h3>Mood detection</h3>
+                <p>Will detect your mood.</p>
+            </div>
+            <a href="pages/health chart.html" class="card-link">
+                <div class="card">
+                    <div class="icon">📈</div>
+                    <h3>Smart remainders</h3>
+                    <p>Monitor your health progress over time and will remind you.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <div id="testimonials" class="container">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"SamvaadAI has transformed the way I manage my chronic condition. The medication reminders are a
+                    lifesaver!"</p>
+                <h4>- John Doe</h4>
+            </div>
+            <div class="testimonial">
+                <p>"The telehealth services are fantastic. I can consult with my doctor from the comfort of my home."
+                </p>
+                <h4>- Jane Smith</h4>
+            </div>
+            <div class="testimonial">
+                <p>"I love the health monitoring feature. It helps me keep track of my vitals and stay on top of my
+                    health."</p>
+                <h4>- Mary Johnson</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action Section -->
+    <div id="call-to-action" class="container">
+        <h2 class="section-title">Join SamvaadAI Today</h2>
+        <p class="cta-text">Take control of your health with our comprehensive tools and resources. Sign up now and
+            start your journey to better health!</p>
+        <button class="btn" onclick="location.href='pages/signup.html'">Sign Up</button>
+    </div>
+
+    <!-- Blog/News Section -->
+    <div id="blog" class="container">
+        <h2 class="section-title">Latest News</h2>
+        <div class="blog-posts">
+            <div class="blog-post">
+                <h3>New Features in SamvaadAI</h3>
+                <p>We are excited to announce new features that will help you manage your health more effectively...</p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="blog-post">
+                <h3>Tips for Managing Diseases</h3>
+                <p>Discover practical tips and strategies for managing diseases and improving your quality of
+                    life...</p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="blog-post">
+                <h3>Success Stories from SamvaadAI Users</h3>
+                <p>Read inspiring stories from our users who have successfully managed their chronic conditions with
+                    SamvaadAI...</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <div id="faq" class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq">
+            <div class="faq-item">
+                <h3>What is SamvaadAI?</h3>
+                <p>SamvaadAI is a health website.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How can SamvaadAI help me?</h3>
+                <p>SamvaadAI provides tools and resources to help you monitor your health, manage medications,
+                    schedule appointments, and access telehealth services, all in one place.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is SamvaadAI free to use?</h3>
+                <p> Yes SamvaadAI is free to use.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Health Facts Section -->
+    <div id="health-facts" class="container">
+        <h2 class="section-title">Health Facts</h2>
+        <div class="health-facts">
+            <div class="fact-item">
+                <h3>Fact 1</h3>
+                <p>Regular physical activity can help prevent chronic diseases such as heart disease, stroke, diabetes,
+                    and some cancers.</p>
+            </div>
+            <div class="fact-item">
+                <h3>Fact 2</h3>
+                <p>Eating a balanced diet with plenty of fruits and vegetables can improve your overall health and
+                    reduce the risk of chronic diseases.</p>
+            </div>
+            <div class="fact-item">
+                <h3>Fact 3</h3>
+                <p>Managing stress through activities like meditation, yoga, and deep breathing can improve your mental
+                    and physical health.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 SamvaadAI. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">Contact Us</a></p>
+    </footer>
+    <button class="chatbot-toggler">
+        <span class="material-symbols-rounded">mode_comment</span>
+        <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>Chatbot</h2>
+            <span class="close-btn material-symbols-outlined">close</span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlined">smart_toy</span>
+                <p>Hi there 👋<br />How can I help you today?</p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+            <span id="send-btn" class="material-symbols-rounded">send</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
